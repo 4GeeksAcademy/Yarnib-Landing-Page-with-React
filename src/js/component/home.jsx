@@ -17,7 +17,7 @@ const Home = () => {
 						<Jumbotron />
 					</div>
 				</div>
-				<div className="row pb-5">
+				<div className="row pb-5 pt-4">
 					<div className="col-xl-3 col-md-4 col-lg-3">
 						<Card
 							imageUrl="https://i.pinimg.com/736x/08/a9/b8/08a9b8cc805a1b6a7037819719ab2427.jpg"

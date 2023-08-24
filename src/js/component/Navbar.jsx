@@ -2,13 +2,14 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <a className="navbar-brand text-white" href="#">
           Start Bootstrap
         </a>
+        
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-white"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -19,8 +20,8 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto"> {/* Add ml-auto class here */}
+        <div className="" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link text-white" href="#">
                 Home <span className="sr-only">(current)</span>

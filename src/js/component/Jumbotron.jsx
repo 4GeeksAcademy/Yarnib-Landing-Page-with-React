@@ -5,7 +5,7 @@ import "./Jumbotron.css"; // Import your custom CSS file
 export const Jumbotron = (props) => {
   return (
     <div className="custom-jumbotron">
-      <div className="jumbotron">
+      <div className="jumbotron pb-5">
         <h1 className="display-4">{props.title}</h1>
         <p className="lead">{props.description}</p>
         <a
